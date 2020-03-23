@@ -37,6 +37,11 @@ tweets = [
     }
 ]
 
+
+def question_a(list_of_tweets):
+    return (list_of_tweets[0]["user"]["screen_name"])
+
+
 if __name__ == "__main__":
 
     print("------------------")
@@ -50,9 +55,9 @@ if __name__ == "__main__":
     # QUESTION A
     #
     # "Print" the screen name of the user who authored the first tweet (i.e. "sandwhoa"):
-    
-    print("Question A answer\n")
-    print(tweets[0]["user"]["screen_name"])
+
+    print("Question A answer\n")  
+    print(question_a(tweets))
     #
     # QUESTION B
     #
